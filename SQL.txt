@@ -1,0 +1,10 @@
+Para resetar a numeração de uma chave primária para uma tabela:
+DBCC CHECKIDENT ('<NOME DA TABELA>', RESEED, 0);
+
+Informação do banco de dados
+Sp_HELPDB
+
+Informação de tabelas
+SP_HELP <NOME DA TABELA>
+
+
