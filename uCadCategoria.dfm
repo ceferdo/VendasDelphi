@@ -3,6 +3,7 @@ inherited frmCadCategoria: TfrmCadCategoria
   PixelsPerInch = 96
   TextHeight = 13
   inherited pgcPrincipal: TPageControl
+    ActivePage = tabManutencao
     inherited tabListagem: TTabSheet
       inherited grdListagem: TDBGrid
         DataSource = dtsListagem
@@ -22,6 +23,7 @@ inherited frmCadCategoria: TfrmCadCategoria
     end
     inherited tabManutencao: TTabSheet
       object edtID_Categoria: TLabeledEdit
+        Tag = 1
         Left = 16
         Top = 32
         Width = 121
@@ -34,7 +36,7 @@ inherited frmCadCategoria: TfrmCadCategoria
         TabOrder = 0
       end
       object edtNM_Descricao: TLabeledEdit
-        Tag = 1
+        Tag = 2
         Left = 16
         Top = 80
         Width = 361
